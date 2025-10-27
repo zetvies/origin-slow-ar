@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     const {renderer, scene, camera} = mindarThree;
 
-    const geometry = new THREE.PlaneGeometry(2, 3);
+    const geometry = new THREE.PlaneGeometry(1, 1.5);
     const textureLoader = new THREE.TextureLoader();
     const texture = textureLoader.load('./assets/flyer.png');
     const material = new THREE.MeshBasicMaterial({map: texture});
