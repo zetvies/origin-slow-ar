@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: './assets/targets/sticker-color.mind',
+      imageTargetSrc: './assets/targets/sticker-texture.mind',
     });
     const {renderer, scene, camera} = mindarThree;
 
